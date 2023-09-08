@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main{
+  margin:0;
+  padding:0;
+  width: 100%;
+  object-fit: cover;
+}
+@layer base {
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  h5 {
+    font-weight: bold;
+    font-size: 0.83em;
+  }
+  h6 {
+    font-weight: bold;
+    font-size: 0.67em;
+  }
+}
