@@ -1,1 +1,42 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.video {
+  border-radius: 15px;
+  height: 27%;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.video img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bell {
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.367);
+  padding: 10px;
+}
+
+.profile {
+  background-color: rgba(128, 128, 128, 0.367);
+  border-radius: 20px;
+  padding: 5px;
+}
+.profile img {
+  border: 2px solid red;
+}
+
+.text-container {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  padding: 0 1rem;
+  width: 100%;
+  background: rgb(1, 0, 10);
+  background: linear-gradient(0deg, rgb(1, 0, 10) 44%, rgba(0, 0, 0, 0.4892331933) 100%);
+}/*# sourceMappingURL=styles.css.map */

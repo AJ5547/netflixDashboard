@@ -1,0 +1,47 @@
+// @use '../app.css';
+
+@mixin tCard {
+  border-radius: 15px;
+  height: 27%;
+  overflow: hidden;
+  margin: 10px 0;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.video {
+  @include tCard;
+}
+.bell {
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.367);
+  padding: 10px;
+}
+.profile {
+  background-color: rgba(128, 128, 128, 0.367);
+  border-radius: 20px;
+  padding: 5px;
+  img {
+    border: 2px solid red;
+  }
+}
+.text-container {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  padding: 0 1rem;
+  width: 100%;
+  background: rgb(1, 0, 10);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 0, 10, 1) 44%,
+    rgba(0, 0, 0, 0.48923319327731096) 100%
+  );
+}

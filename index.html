@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="https://kit.fontawesome.com/9bd4a88d16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css" />
+    <script
+      src="https://kit.fontawesome.com/9bd4a88d16.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="relative w-full h-screen flex items-center justify-center">
@@ -16,24 +19,113 @@
         alt=""
       />
       <div
-        class="dashboardContainer w-3/4 h-5/6 bg-gray-500/30 backdrop-blur-md z-20 rounded-3xl overflow-hidden"
+        class="dashboardContainer w-3/4 h-5/6 bg-gray-500/30 backdrop-blur-md z-20 rounded-3xl overflow-hidden flex"
       >
         <div
-          class="sidebar w-1/6 h-full flex flex-col bg-zinc-800/50 text-neutral-300 items-start justify-between p-15"
+          class="sidebar w-1/4 h-full flex flex-col bg-zinc-800/50 text-neutral-300 items-start justify-around mb-0"
         >
-          <img src="580b57fcd9996e24bc43c529.png" alt="" class="logo w-3/4 mb-6" />
-          <div class="inputs h-1/3 ml-3">
-           
-            <p class="h-9"><i class="fa-solid fa-circle-play" style="color: #cb0606;"></i> Browse</p>
-            <p class="h-9"><i class="fa-regular fa-heart" style="color: #b0b0b0;"></i>Watchlist</p>
-            <p class="h-9"><i class="fa-regular fa-calendar" style="color: #8f8f8f;"></i>Coming Soon</p> 
+          <img
+            src="580b57fcd9996e24bc43c529.png"
+            alt=""
+            class="logo w-3/4 mb-6"
+          />
+          <div class="h-1/5 ml-3 mb-1">
+            <p class="h-9">
+              <i
+                class="fa-solid fa-circle-play mr-2"
+                style="color: #cb0606"
+              ></i>
+              Browse
+            </p>
+            <p class="h-9">
+              <i class="fa-regular fa-heart mr-2" style="color: #b0b0b0"></i
+              >Watchlist
+            </p>
+            <p class="h-9">
+              <i class="fa-regular fa-calendar mr-2" style="color: #8f8f8f"></i
+              >Coming Soon
+            </p>
           </div>
 
-          <div class="trailers w-full h-1/2 ml-3">
-            <h3>New Trailers <i class="fa-solid fa-fire" style="color: #eb5200;"></i></h3>
-            <div class="video h-1/4 w-10/12 rounded-lg bg-slate-400 my-3"> ah </div>
-            <div class="video h-1/4 w-10/12 rounded-lg bg-slate-400 my-3"> ah </div>
-            <div class="video h-1/4 w-10/12 rounded-lg bg-slate-400 my-3"> ah </div>
+          <div class="trailers w-full mt-0 h-2/3 ml-3">
+            <h3>
+              New Trailers
+              <i class="fa-solid fa-fire" style="color: #eb5200"></i>
+            </h3>
+            <div class="video w-10/12">
+              <img src="shadowAndBone.webp" alt="" />
+            </div>
+            <div class="video w-10/12">
+              <img src="thenightagent.webp" alt="" />
+            </div>
+            <div class="video w-10/12">
+              <img src="witcher.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="mainContent w-full mt-6">
+          <div class="nav flex items-center w-full justify-between">
+            <div class="left flex items-center w-2/3">
+              <i
+                class="fa-solid fa-chevron-left fa-lg m-1"
+                style="color: #808080"
+              ></i>
+              <i
+                class="fa-solid fa-chevron-right fa-lg m-2 mr-6"
+                style="color: #bababa"
+              ></i>
+              <input
+                class="rounded ml-3 w-1/2 bg-slate-600/30 p-1"
+                type="text"
+                placeholder="Search.."
+              />
+            </div>
+            <div class="right flex items-center w-1/3">
+              <i
+                class="fa-regular fa-bell bell mx-5"
+                style="color: #d4d4d4"
+              ></i>
+              <div
+                class="profile w-1/3 h-10 mx-3 flex items-center justify-between"
+              >
+                <img
+                  src="profileImage.jpeg"
+                  alt=""
+                  class="rounded-2xl w-1/4 ml-2"
+                />
+                <div
+                  class="names flex flex-col pr-3 text-gray-300 justify-center"
+                >
+                  <p>Name</p>
+                  <p class="text-xs">Username</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full h-4/5 flex flex-col items-center mt-10">
+            <img
+              class="h-1/3 w-11/12 object-cover bottom-0 rounded-2xl"
+              src="peakyblinder.webp"
+              alt=""
+            />
+            <div class="show w-11/12 items-start flex flex-col h-2/3 m-5">
+              <h3 class="text-gray-200">Popcorn Mania</h3>
+              <div class="row flex h-1/2">
+                <div class="video h-4/5 w-8/12 overflow-hidden relative">
+                  <img src="brooklyn.jpg_large" alt="" />
+                  <div class="text-container">
+                    <h4>brooklyn nine nine</h4>
+                    <p class="text-xs">2020 &nbsp; 16+ &nbsp; 7 Seasons</p>
+                  </div>
+                </div>
+              </div>
+              <h3 class="text-gray-200 mt-6">Continue Watching</h3>
+              <div class="row flex h-1/3">
+                <div class="video h-4/5 w-11/12 overflow-hidden">
+                  <img src="brooklyn.jpg_large" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
