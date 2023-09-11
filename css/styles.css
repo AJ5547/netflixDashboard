@@ -39,4 +39,15 @@ body {
   width: 100%;
   background: rgb(1, 0, 10);
   background: linear-gradient(0deg, rgb(1, 0, 10) 44%, rgba(0, 0, 0, 0.4892331933) 100%);
+}
+
+.info-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+}
+
+.h-ninety {
+  height: 90%;
 }/*# sourceMappingURL=styles.css.map */
