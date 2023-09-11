@@ -7,7 +7,9 @@
   margin:0;
   padding:0;
   width: 100%;
-  object-fit: cover;
+  height:100vh;
+  background-size: cover;
+  background-image: url('pexels-hemanth-nirujogi-2555635.jpg');
 }
 @layer base {
   h1 {
