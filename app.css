@@ -564,12 +564,20 @@ h6 {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .inset-0 {
@@ -679,6 +687,14 @@ h6 {
   margin-right: 2.5rem;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -729,6 +745,18 @@ h6 {
 
 .h-3\/5 {
   height: 60%;
+}
+
+.h-1\/4 {
+  height: 25%;
+}
+
+.h-4\/6 {
+  height: 66.666667%;
+}
+
+.h-3\/6 {
+  height: 50%;
 }
 
 .w-1\/2 {
@@ -893,6 +921,11 @@ h6 {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.bg-zinc-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 82 91 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -912,6 +945,10 @@ h6 {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-2 {

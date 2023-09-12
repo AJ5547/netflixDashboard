@@ -49,11 +49,21 @@ body {
 
 .show-container {
   position: absolute;
-  bottom: 0;
-  padding: 3px;
-  background-color: #b80606;
+  bottom: 15px;
+  left: 60px;
+  padding: 5px;
   color: white;
   border-radius: 9999px;
+}
+
+.show-info {
+  position: absolute;
+  bottom: 130px;
+  right: 60px;
+}
+
+.sidebar {
+  height: 200vh;
 }
 
 .h-ninety {
@@ -62,4 +72,19 @@ body {
 
 .ph-bold {
   font-size: 30px;
+}
+
+.previews {
+  position: absolute;
+  width: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  bottom: 15px;
+  right: 400px;
+}
+.previews img {
+  margin: 5px;
+}
+.previews img:hover {
+  border: 3px solid red;
 }/*# sourceMappingURL=styles.css.map */
