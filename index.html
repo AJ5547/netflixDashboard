@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/9bd4a88d16.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <div class="relative w-full h-screen flex items-center justify-center">
@@ -19,10 +20,25 @@
         alt=""
       />
       <div
-        class="dashboardContainer w-3/4 h-ninety bg-gray-500/30 backdrop-blur-md z-20 rounded-3xl overflow-hidden flex"
+        class="sideNav flex flex-col items-center justify-around rounded-full h-1/2 w-11 text-white mr-10 bg-zinc-800/50 relative top-1/6 left-1/6"
+      >
+        <i
+          class="fa-regular fa-circle-play fa-xl bg-red-600 py-4 px-1 rounded-full"
+          style="color: #eaeaea"
+        ></i>
+        <i class="fa-solid fa-border-all fa-xl" style="color: #feffff"></i>
+        <i class="ph-bold ph-monitor-play"></i>
+        <i class="ph-bold ph-airplay"></i>
+        <i
+          class="fa-solid fa-magnifying-glass fa-xl"
+          style="color: #feffff"
+        ></i>
+      </div>
+      <div
+        class="dashboardContainer w-3/4 h-ninety bg-gray-500/30 backdrop-blur-md z-20 rounded-3xl overflow-scroll flex"
       >
         <div
-          class="sidebar w-1/4 h-full flex flex-col bg-zinc-800/50 text-neutral-300 items-start justify-around mb-0"
+          class="sidebar shrink-0 w-1/4 h-full flex flex-col bg-zinc-800/50 text-neutral-300 items-start justify-around mb-0"
         >
           <img
             src="images/580b57fcd9996e24bc43c529.png"
@@ -53,24 +69,39 @@
               <i class="fa-solid fa-fire" style="color: #eb5200"></i>
             </h3>
             <div class="video w-10/12 relative">
-              <img src="images/shadowAndBone.webp"  alt="" />
-              <div class="info-container flex items-center justify-between h-1/5 bg-gray-700/90">
-                <h4> Shadow and Bone </h4>
-                <i class="fa-regular fa-circle-play m-5" style="color: #787878;"></i>
+              <img src="images/shadowAndBone.webp" alt="" />
+              <div
+                class="info-container flex items-center justify-between h-1/5 bg-gray-700/90"
+              >
+                <h4>Shadow and Bone</h4>
+                <i
+                  class="fa-regular fa-circle-play m-5"
+                  style="color: #787878"
+                ></i>
               </div>
             </div>
             <div class="video w-10/12 relative">
               <img src="images/thenightagent.webp" alt="" />
-              <div class="info-container flex items-center justify-between  h-1/5 bg-gray-700/90">
-                <h4> The Night Agent </h4>
-                <i class="fa-regular fa-circle-play m-5" style="color: #787878;"></i>
+              <div
+                class="info-container flex items-center justify-between h-1/5 bg-gray-700/90"
+              >
+                <h4>The Night Agent</h4>
+                <i
+                  class="fa-regular fa-circle-play m-5"
+                  style="color: #787878"
+                ></i>
               </div>
             </div>
             <div class="video w-10/12 relative">
               <img src="images/witcher.webp" alt="" />
-              <div class="info-container flex items-center justify-between h-1/5 bg-gray-700/90">
-                <h4> Witcher </h4>
-                <i class="fa-regular fa-circle-play m-5" style="color: #787878;"></i>
+              <div
+                class="info-container flex items-center justify-between h-1/5 bg-gray-700/90"
+              >
+                <h4>Witcher</h4>
+                <i
+                  class="fa-regular fa-circle-play m-5"
+                  style="color: #787878"
+                ></i>
               </div>
             </div>
           </div>
@@ -115,43 +146,53 @@
             </div>
           </div>
           <div class="w-full h-4/5 flex flex-col items-center mt-10">
-            <img
-              class="h-2/5 w-11/12 object-cover bottom-0 rounded-2xl relative"
-              src="images/peakyblinder.webp"
-              alt=""
-            />
-            <div class="text-container">
-              
-            </div>
+           
+              <img
+                class="h-4/5 w-11/12 object-cover bottom-0 rounded-2xl"
+                src="images/peakyblinder.webp"
+                alt=""
+              />
+              <!-- <div class="show-container">
+                <button class="rounded-full">
+                  Watch
+                </button>
+              </div> -->
             <div class="show w-11/12 flex flex-col h-2/3 m-5">
               <h3 class="text-gray-200">Popcorn Mania</h3>
               <div class="row justofy-between flex h-1/2">
                 <div class="video h-4/5 w-7/12 mx-1 overflow-hidden relative">
-                  <img src="images/brooklyn.jpg_large" alt="" />
+                  <img src="images/brooklyn.jpg_large" class="h-full" alt="" />
                   <div class="text-container">
                     <h4>brooklyn nine nine</h4>
                     <p class="text-xs">2020 &nbsp; 16+ &nbsp; 7 Seasons</p>
                   </div>
                 </div>
-                <div class="video h-4/5 w-7/12 mx-1 overflow-hidden relative">
-                  <img src="images/brooklyn.jpg_large" alt="" />
+                <div
+                  class="video h-4/5 w-7/12 mx-1 overflow-hidden relative object-cover"
+                >
+                  <img
+                    src="images/ReadyPlayerOne.webp"
+                    class="h-full w-full"
+                    class="object-cover"
+                    alt=""
+                  />
                   <div class="text-container">
-                    <h4>brooklyn nine nine</h4>
-                    <p class="text-xs">2020 &nbsp; 16+ &nbsp; 7 Seasons</p>
+                    <h4>Ready Player One</h4>
+                    <p class="text-xs">2018 &nbsp; 13+ &nbsp; 2 hr 30 min</p>
                   </div>
                 </div>
                 <div class="video h-4/5 w-7/12 mx-1 overflow-hidden relative">
-                  <img src="images/brooklyn.jpg_large" alt="" />
+                  <img src="images/moenyHeist.webp" class="h-full" alt="" />
                   <div class="text-container">
-                    <h4>brooklyn nine nine</h4>
-                    <p class="text-xs">2020 &nbsp; 16+ &nbsp; 7 Seasons</p>
+                    <h4>Money Heist</h4>
+                    <p class="text-xs">2021 &nbsp; A &nbsp; 2h 20m</p>
                   </div>
                 </div>
                 <div class="video h-4/5 w-7/12 mx-1 overflow-hidden relative">
-                  <img src="images/brooklyn.jpg_large" alt="" />
+                  <img src="images/ashVsEvilDead.webp" class="h-full" alt="" />
                   <div class="text-container">
-                    <h4>brooklyn nine nine</h4>
-                    <p class="text-xs">2020 &nbsp; 16+ &nbsp; 7 Seasons</p>
+                    <h4>Ash vs Evil Dead</h4>
+                    <p class="text-xs">2018 &nbsp; A &nbsp; 73Seasons</p>
                   </div>
                 </div>
               </div>
@@ -161,31 +202,55 @@
                   <img src="images/rednotice.webp" class="w-full" alt="" />
                   <div class="text-container">
                     <h4>Red Notice</h4>
-                    <input type="range" name="watcing" min="0" max="100" />
+                    <input
+                      type="range"
+                      name="watcing"
+                      min="0"
+                      max="100"
+                      value="25"
+                    />
                   </div>
                 </div>
 
                 <div class="video h-5/6 w-1/4 mx-1 overflow-hidden relative">
-                  <img src="images/rednotice.webp" class="w-full" alt="" />
+                  <img src="images/extraction.webp" class="w-full" alt="" />
                   <div class="text-container">
-                    <h4>Red Notice</h4>
-                    <input type="range" name="watcing" min="0" max="100" />
+                    <h4>Extraction</h4>
+                    <input
+                      type="range"
+                      name="watcing"
+                      min="0"
+                      max="100"
+                      value="65"
+                    />
                   </div>
                 </div>
 
                 <div class="video h-5/6 w-1/4 mx-1 overflow-hidden relative">
-                  <img src="images/rednotice.webp" class="w-full" alt="" />
+                  <img src="images/theAdamProject.webp" class="w-full" alt="" />
                   <div class="text-container">
-                    <h4>Red Notice</h4>
-                    <input type="range" name="watcing" min="0" max="100" />
+                    <h4>The Adam Project</h4>
+                    <input
+                      type="range"
+                      name="watcing"
+                      min="0"
+                      max="100"
+                      value="15"
+                    />
                   </div>
                 </div>
 
                 <div class="video h-5/6 w-1/4 mx-1 overflow-hidden relative">
-                  <img src="images/rednotice.webp" class="w-full" alt="" />
+                  <img src="images/theOldGuard.webp" class="w-full" alt="" />
                   <div class="text-container">
-                    <h4>Red Notice</h4>
-                    <input type="range" name="watcing" min="0" max="100" />
+                    <h4>The Old Guard</h4>
+                    <input
+                      type="range"
+                      name="watcing"
+                      min="0"
+                      max="100"
+                      value="95"
+                    />
                   </div>
                 </div>
               </div>

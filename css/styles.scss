@@ -6,7 +6,6 @@
   overflow: hidden;
   margin: 10px 0;
   img {
-    height: 100%;
     object-fit: cover;
   }
 }
@@ -51,7 +50,18 @@ body {
     width: 100%;
     padding:3px;
 }
+.show-container{
+  position: absolute;
+    bottom:0;
+    padding:3px;
+    background-color:#b80606 ;
+    color:white;
+    border-radius: 9999px;
+}
 
 .h-ninety{
 height:90%;
+}
+.ph-bold{
+  font-size: 30px;
 }
